@@ -16,4 +16,4 @@ RUN addgroup -S pharma && adduser -S pharma -G pharma
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 
-#stage3
+
