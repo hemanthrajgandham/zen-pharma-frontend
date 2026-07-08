@@ -12,7 +12,7 @@ permissions:
 
 env:
   AWS_REGION: us-east-1
-  ECR_REPOSITORY: pharma-ui
+  ECR_REPOSITORY: pharma-dev-pharma-ui
   IMAGE_TAG: ${{ github.sha }}
   GITOPS_REPO: hemanthrajgandham/zen-gitops
 
